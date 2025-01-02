@@ -6,20 +6,20 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img
-          src="https://via.placeholder.com/150"
+          src="./src/assets/sebas-perfil.jpg"
           alt="Foto de perfil"
           className="profile-picture"
         />
         <h1>Mi Portafolio</h1>
-        <p>Hola, soy un programador fullstack especializado en tecnologías modernas.</p>
+        <p>Hola! mi nombre es Sebastian Capurro, soy un programador fullstack especializado en tecnologías modernas.</p>
       </header>
 
       <section id="about">
         <h2>Sobre mí</h2>
         <p>
-          Soy un desarrollador apasionado por crear aplicaciones eficientes y bien diseñadas. Mi enfoque
+          Soy técnico universitario en programación, apasionado por crear aplicaciones eficientes y bien diseñadas. Mi enfoque
           se basa en seguir principios como SOLID, aplicar buenas prácticas y utilizar herramientas y
-          tecnologías de vanguardia.
+          tecnologías de vanguardia. A lo largo de mi carrera profesiónal tuve la suerte de participar en grandes proyectos para grandes empresas, como banco Supervielle, Invertir Online y la aerolinea Avianca
         </p>
       </section>
 
@@ -37,7 +37,7 @@ const App = () => {
           <a href="https://example.com/backend-project" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
         </div>
 
-        <div className="project-card">
+        {/* <div className="project-card">
           <img src="https://via.placeholder.com/300" alt="Sistema de Turnos Médicos" />
           <h3>Angular: Sistema de Turnos Médicos</h3>
           <ul>
@@ -46,34 +46,37 @@ const App = () => {
             <li>Manejo de datos con Observables y Subscribe.</li>
           </ul>
           <a href="https://example.com/angular-turnos" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
-        </div>
+        </div> */}
 
         <div className="project-card">
-          <img src="https://via.placeholder.com/300" alt="Comanda Digital con Firebase" />
-          <h3>Angular: Comanda Digital con Firebase</h3>
+          <img src="./src/assets/sala-de-juegos-portada.png" alt="Sala de juegos" />
+          <h3>Angular: Sala de Juegos</h3>
           <ul>
-            <li>Autenticación y almacenamiento en tiempo real con Firebase.</li>
+            <li>Manejo de local Storage.</li>
             <li>Interactividad usando Inputs y Outputs.</li>
-            <li>Gestión eficiente del estado con Observables.</li>
+            <li>Armado de servicios personalizados para mejor abstracción.</li>
+            <li>Manejo de archivos json.</li>
+            <li>Uso de pipes.</li>
           </ul>
-          <a href="https://example.com/angular-comanda" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+          <a href="https://github.com/sebacapu29/Sala-Juegos-Angular" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
         </div>
 
         <div className="project-card">
-          <img src="https://via.placeholder.com/300" alt="Aplicación de Búsqueda de GIFs" />
+          <img src="./src/assets/gif-app-portada.png" alt="Aplicación de Búsqueda de GIFs" />
           <h3>ReactJS: Aplicación de Búsqueda de GIFs</h3>
           <ul>
             <li>Búsqueda dinámica de GIFs utilizando la Fetch API.</li>
             <li>Gestión de estado local con Hooks.</li>
             <li>Diseño responsivo y fácil de usar.</li>
+            <li>Creacion de tests con Jest.</li>
           </ul>
-          <a href="https://example.com/react-gifs" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+          <a href="https://github.com/sebacapu29/GifApp" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
         </div>
       </section>
 
       <footer>
         <h2>Contacto</h2>
-        <p>Si deseas conocer más sobre mí o colaborar en un proyecto, ¡no dudes en contactarme!</p>
+        <p>Si deseas conocer más sobre mí ¡no dudes en contactarme!</p>
       </footer>
     </div>
   );
